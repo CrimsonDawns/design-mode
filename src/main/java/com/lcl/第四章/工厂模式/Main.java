@@ -1,0 +1,19 @@
+package com.lcl.第四章.工厂模式;
+
+import com.lcl.第四章.工厂模式.披萨.Pizza;
+import com.lcl.第四章.工厂模式.披萨店.ChicagoPizzaStore;
+import com.lcl.第四章.工厂模式.披萨店.NYPizzaStore;
+
+public class Main {
+    public static void main(String[] args) {
+        NYPizzaStore nyPizzaStore = new NYPizzaStore();
+        ChicagoPizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
+
+        Pizza pizza = nyPizzaStore.orderPizza("cheese");
+        System.out.println("Ethan ordered a " + pizza.getName());
+
+
+        pizza = chicagoPizzaStore.orderPizza("cheese");
+        System.out.println("Joel ordered a " + pizza.getName());
+    }
+}
