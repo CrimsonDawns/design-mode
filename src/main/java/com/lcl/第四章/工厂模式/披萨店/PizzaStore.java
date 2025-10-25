@@ -1,10 +1,14 @@
 package com.lcl.第四章.工厂模式.披萨店;
 
+import com.lcl.第四章.工厂模式.原料工厂.PizzaIngredientFactory;
 import com.lcl.第四章.工厂模式.披萨.Pizza;
 
 public abstract class PizzaStore {
+    public PizzaIngredientFactory ingredient;
+
     /**
      * 工厂方法，用于创建各种不同的披萨对象
+     *
      * @param type 添加的配料
      * @return 披萨对象
      */

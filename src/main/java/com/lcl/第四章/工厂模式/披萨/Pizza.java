@@ -1,22 +1,21 @@
 package com.lcl.第四章.工厂模式.披萨;
 
-import java.util.ArrayList;
+import com.lcl.第四章.工厂模式.原料.*;
 
-public class Pizza {
+
+import java.util.Arrays;
+
+public abstract class Pizza {
     String name;
-    String dough;
-    String sauce;
-    ArrayList<String> toppings = new ArrayList<>();
+    Dough dough;
+    Sauce sauce;
+    Veggies[] veggies;
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clams;
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings: ");
-        for (String topping : toppings) {
-            System.out.println("   " + topping);
-        }
-    }
+    public abstract void prepare();
+
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -32,5 +31,22 @@ public class Pizza {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", dough=" + dough +
+                ", sauce=" + sauce +
+                ", veggies=" + Arrays.toString(veggies) +
+                ", cheese=" + cheese +
+                ", pepperoni=" + pepperoni +
+                ", clams=" + clams +
+                '}';
     }
 }
