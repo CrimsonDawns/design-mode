@@ -1,7 +1,6 @@
 package com.lcl.第四章.工厂模式.披萨店;
 
 import com.lcl.第四章.工厂模式.原料工厂.ChicagoPizzaIngredientFactory;
-import com.lcl.第四章.工厂模式.原料工厂.NYPizzaIngredientFactory;
 import com.lcl.第四章.工厂模式.披萨.*;
 
 public class ChicagoPizzaStore extends PizzaStore {
