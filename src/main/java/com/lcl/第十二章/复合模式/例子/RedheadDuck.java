@@ -1,17 +1,15 @@
-package com.lcl.第十二章.复合模式;
+package com.lcl.第十二章.复合模式.例子;
 
-public class MallDuck implements Quackable {
-
+public class RedheadDuck implements Quackable {
     private Observable observable;
 
-    public MallDuck() {
+    public RedheadDuck() {
         observable = new Observable(this);
     }
 
     @Override
     public void quack() {
         System.out.println("Quack");
-        notifyObservers();
     }
 
     @Override

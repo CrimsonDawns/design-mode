@@ -1,4 +1,4 @@
-package com.lcl.第十二章.复合模式;
+package com.lcl.第十二章.复合模式.例子;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,6 +7,7 @@ import java.util.Iterator;
  * 利用组合模式
  */
 public class Flock implements Quackable {
+
     ArrayList<Quackable> quackers = new ArrayList<>();
 
     public void add(Quackable quackable) {
@@ -20,5 +21,19 @@ public class Flock implements Quackable {
             Quackable quacker = iterator.next();
             quacker.quack();
         }
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        Iterator<Quackable> iterator = quackers.iterator();
+        while (iterator.hasNext()) {
+            Quackable quacker = iterator.next();
+            quacker.registerObserver(observer);
+        }
+    }
+
+    @Override
+    public void notifyObservers() {
+
     }
 }

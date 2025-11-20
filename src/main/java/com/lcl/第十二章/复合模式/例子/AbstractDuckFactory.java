@@ -1,4 +1,4 @@
-package com.lcl.第十二章.复合模式;
+package com.lcl.第十二章.复合模式.例子;
 
 /**
  * 创建鸭家族的工厂方法

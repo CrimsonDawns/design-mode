@@ -1,4 +1,4 @@
-package com.lcl.第十二章.复合模式;
+package com.lcl.第十二章.复合模式.例子;
 
 public class DuckSimulator {
     public static void main(String[] args) {
@@ -42,6 +42,11 @@ public class DuckSimulator {
         System.out.println("\nDuck Simulator:Mallard Flock Simulation");
         simulate(flockMallards);
 
+        System.out.println("\nDuck Simulator:With Observer");
+        Quackologist quackologist = new Quackologist();
+        flock.registerObserver(quackologist);
+
+        simulate(flock);
 
         System.out.println("The ducks quacked " + QuackCounter.getNumberOfQuacks() + " times");
     }

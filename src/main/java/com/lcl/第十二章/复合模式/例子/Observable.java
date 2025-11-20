@@ -1,8 +1,11 @@
-package com.lcl.第十二章.复合模式;
+package com.lcl.第十二章.复合模式.例子;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * 主题类
+ */
 public class Observable implements QuackObservable {
     private ArrayList<Observer> observers = new ArrayList<>();
     private QuackObservable duck;
