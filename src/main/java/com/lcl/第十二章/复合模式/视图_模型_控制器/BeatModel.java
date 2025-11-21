@@ -46,7 +46,7 @@ public class BeatModel implements BeatModelInterface, MetaEventListener {
 
 
     @Override
-    void registerObserver(BeatObserver o) {
+    public void registerObserver(BeatObserver o) {
 
     }
 

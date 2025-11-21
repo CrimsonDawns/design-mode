@@ -34,6 +34,5 @@ public class Flock implements Quackable {
 
     @Override
     public void notifyObservers() {
-
     }
 }

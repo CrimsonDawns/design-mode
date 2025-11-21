@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af22a912-77c0-4bcb-8510-582ee83b651d" name="更改" comment="‘’">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/GooseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Quackologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BPMObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatModelInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/ControllerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/DJView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/Sequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/HeartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/HeartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/HeartModelInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/AbstractDuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/AbstractDuckFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/AbstractGooseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/AbstractGooseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/CountingDuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/CountingDuckFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/DuckCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/DuckCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/DuckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/DuckFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/DuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/Flock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Flock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/Goose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Goose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/GooseAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/GooseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/GooseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/MallDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/MallDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/QuackCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/QuackCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/QuackObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/QuackObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/Quackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Quackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/RedheadDuck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Flock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/例子/Flock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcl/第十二章/复合模式/视图_模型_控制器/BeatModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +230,7 @@
       <workItem from="1763542406137" duration="2644000" />
       <workItem from="1763625033332" duration="1953000" />
       <workItem from="1763632732190" duration="2754000" />
+      <workItem from="1763701777884" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="‘’">
       <option name="closed" value="true" />
